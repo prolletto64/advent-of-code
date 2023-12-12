@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20ff972c-fd31-4286-8ce1-1863470da8d2" name="Changes" comment="ignore downloaded input">
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/prolletto64/AOC/utils/inputHandler.java" afterDir="false" />
+    <list default="true" id="20ff972c-fd31-4286-8ce1-1863470da8d2" name="Changes" comment="we handle files">
+      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/AOC Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fileTemplates/AOC Class.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/prolletto64/AOC/twentythree/one.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/prolletto64/AOC/twentythree/one.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AOC Class" />
         <option value="Class" />
+        <option value="AOC Class" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -101,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702389593673</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="we handle files">
+      <option name="closed" value="true" />
+      <created>1702390681236</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702390681236</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +132,7 @@
     <MESSAGE value="inital status" />
     <MESSAGE value="day one setup" />
     <MESSAGE value="ignore downloaded input" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore downloaded input" />
+    <MESSAGE value="we handle files" />
+    <option name="LAST_COMMIT_MESSAGE" value="we handle files" />
   </component>
 </project>
