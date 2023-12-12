@@ -1,5 +1,6 @@
 package it.prolletto64.AOC.twentythree;
 
+import java.util.HashMap;
 import java.util.Map;
 
 import static it.prolletto64.AOC.utils.inputHandler.readLines;
@@ -7,27 +8,38 @@ import static it.prolletto64.AOC.utils.inputHandler.readLines;
 public class two {
     private static String[] lines = readLines("two");
 
-    private static final Map<String,Integer> CUBES = Map.of(
-            "red", 12,
-            "green", 13,
-            "blue", 14
-    );
+    private static Map<String,Integer> cubes = new HashMap<String, Integer>() {{
+            put("red", 0);
+            put("green", 0);
+            put("blue", 0);
+        }};
 
     public static void run() {
         int total=0;
-        boolean invalid;
+        int cubenumber;
+        String color;
         for(String line: lines){
-            invalid=false;
+            resetMap();
             for (String el : line.split(":")[1].split(",")) {
                 for (String e : el.split(";")) {
                     e=e.substring(1);
-                    if(Integer.parseInt(e.split(" ")[0])>CUBES.get(e.split(" ")[1])){
-                        invalid=true;
+                    cubenumber=Integer.parseInt(e.split(" ")[0]);
+                    color=e.split(" ")[1];
+                    if(cubenumber>cubes.get(color)){
+                        cubes.put(color,cubenumber);
                     }
                 }
             }
-            if(!invalid) total+=Integer.parseInt(line.split(":")[0].split(" ")[1]);
+            total+=cubes.get("red")*cubes.get("green")*cubes.get("blue");
         }
         System.out.println(total);
+    }
+
+    public static void resetMap(){
+        cubes=new HashMap<String, Integer>() {{
+            put("red", 0);
+            put("green", 0);
+            put("blue", 0);
+        }};
     }
 }
