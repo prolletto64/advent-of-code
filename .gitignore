@@ -39,3 +39,6 @@ build/
 
 ## WAKATIME ##
 .wakatime-project
+
+## MISC ##
+/cache/
