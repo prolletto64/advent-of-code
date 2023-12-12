@@ -6,4 +6,8 @@
   <version>0.0.1</version>
   <name>Archetype - AOC</name>
   <url>http://maven.apache.org</url>
+  <properties>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+  </properties>
 </project>

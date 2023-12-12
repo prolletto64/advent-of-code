@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20ff972c-fd31-4286-8ce1-1863470da8d2" name="Changes" comment="day one setup">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="20ff972c-fd31-4286-8ce1-1863470da8d2" name="Changes" comment="ignore downloaded input">
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/prolletto64/AOC/utils/inputHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/prolletto64/AOC/twentythree/one.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/prolletto64/AOC/twentythree/one.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AOC Class" />
+        <option value="Class" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -41,10 +42,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\poilu\Desktop\VARIE\AOC\Advent Of Code\cache\2023" />
       <recent name="C:\Users\poilu\Desktop\VARIE\AOC\Advent Of Code\cache" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="run" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="it.prolletto64.AOC.Main" />
+      <module name="AOC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Advent Of Code" />
       <method v="2">
@@ -84,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702389383345</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ignore downloaded input">
+      <option name="closed" value="true" />
+      <created>1702389593673</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702389593673</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inital status" />
     <MESSAGE value="day one setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="day one setup" />
+    <MESSAGE value="ignore downloaded input" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore downloaded input" />
   </component>
 </project>
